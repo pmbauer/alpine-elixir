@@ -3,7 +3,7 @@ Elixir on Alpine Linux
 
 Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
 
-Latest version: **1.2.1**  
+Latest version: **1.2.2**  
 Image size: **28.9 MB**  
 Parent: [pmbauer/erlang](https://github.com/pmbauer/alpine-erlang)
 
@@ -26,7 +26,7 @@ The following packages are pre-installed:
 $ docker run --rm -it pmbauer/elixir iex
 Erlang/OTP 18 [erts-7.1] [source] [64-bit] [async-threads:10] [kernel-poll:false]
 
-Interactive Elixir (1.2.1) - press Ctrl+C to exit (type h() ENTER for help)
+Interactive Elixir (1.2.2) - press Ctrl+C to exit (type h() ENTER for help)
 iex(1)> IO.puts "Hello there!"
 Hello there!
 :ok

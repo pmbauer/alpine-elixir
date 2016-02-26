@@ -1,7 +1,7 @@
 FROM pmbauer/erlang:18.1
 MAINTAINER Paul Bauer <paul@bauer.codes>
 
-ENV ELIXIR_VERSION 1.2.1
+ENV ELIXIR_VERSION 1.2.2
 
 RUN apk --update add --virtual build-dependencies wget ca-certificates && \
     wget https://github.com/elixir-lang/elixir/releases/download/v${ELIXIR_VERSION}/Precompiled.zip && \
